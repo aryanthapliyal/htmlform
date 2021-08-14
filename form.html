@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Form </title>
 </head>
-<marquee direction="right"><h3>Hi user!Thank you for choosing to fill out your personal information and share it with us </h3></marquee>
+<marquee direction="left"><h3>Hi user!Thank you for choosing to fill out your personal information and share it with us </h3></marquee>
 <div style="  margin-left: 225px; width: 550px; height: 550px; background: rgba(247, 96, 166, 0.979); border: 5px solid rgb(12, 14, 3)"> 
 <body>
    
@@ -12,7 +12,7 @@
   <hr style="height:3px;border-width:0;color:gray;background-color:gray">
   <h2>Please enter your details <text-align: center></h2>
 
-  <form action="connect.php" method="POST">
+  <form action="C:\xampp\htdocs>connect.php" method="POST">
     <label for="firstname">First name:</label>
     <input id="firstname" type="text" placeholder="First name" name="firstname"  required/>
     
@@ -31,30 +31,30 @@
     <input type="number" placeholder="telephone No " name="tel" required /></div>
     <label>Date & Time: </label>
     <input type="datetime-local" value="datetime" name="datetime" />
-    <fieldset>
-        <legend>What social media do you use : </legend>
+    <fieldset name="sc">
+        <legend>What social media do you use :  </legend>
         <label>Twitter: 
-            <input type="checkbox" value="Twitter" name="Twitter" /></label>
+            <input type="checkbox" value="T"  /></label>
         <label>Facebook: 
-            <input type="checkbox" value="Facebook" name="Facebook" /></label>
+            <input type="checkbox" value="F"  /></label>
         <label>Instagram: 
-            <input type="checkbox" value="Instagram" name="Instagram" /></label>
+            <input type="checkbox" value="I"  /></label>
         <label>Reddit: 
-            <input type="checkbox" value="Reddit" name="Reddit" /></label>
+            <input type="checkbox" value="R"  /></label>
     </fieldset>
     <fieldset>
         <legend>Gender: </legend>
         <label>Male: 
-            <input type="radio" value="m" name="male" /></label>
+            <input type="radio" value="m" name="m" /></label>
         <label>Female: 
-            <input type="radio" value="f" name="female" /></label>
+            <input type="radio" value="f" name="f" /></label>
     </fieldset>
     <fieldset>
         <legend>Choose how you heard about us: </legend>
         <input type="text" name="datalist" list="samplelist" name="hrd"placeholder="choose one option">
         <datalist id="samplelist">
-            <option>Social Media</option>
-            <option>Poster</option>
+            <option>Social Media </option>
+            <option>Poster </option>
             <option>Through a friend</option>
         </datalist>
     </fieldset>
